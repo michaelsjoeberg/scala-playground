@@ -58,5 +58,3 @@ secondThread.join()
 
 println(firstAccount.getAmount())
 println(secondAccount.getAmount())
-
-

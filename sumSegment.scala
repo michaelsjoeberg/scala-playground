@@ -48,3 +48,4 @@ def pNormFourPart(a: Array[Int], p: Double): Int = {
 
     power (sum1 + sum2 + sum3 + sum4, 1 / p)
 }
+

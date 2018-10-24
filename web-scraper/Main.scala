@@ -15,7 +15,7 @@ object Main {
     val link_tag = """<link[^<]+href+[^<].+(</link>)*""".r
 
     // get url content
-    val html = Source.fromURL("https://skatteverket.se")
+    val html = Source.fromURL("https://twitter.com")
     val s = html.mkString
 
     // regex matches

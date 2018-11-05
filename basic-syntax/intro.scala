@@ -6,8 +6,8 @@ object Main {
     }
 }
 
-// '''
-// Michael Sjoeberg
-// 2018-11-05
-// https://github.com/michaelsjoeberg/scala-playground/blob/master/basic-syntax/intro.scala
-// '''
+/* '''
+Michael Sjoeberg
+2018-11-05
+https://github.com/michaelsjoeberg/scala-playground/blob/master/basic-syntax/intro.scala
+''' */

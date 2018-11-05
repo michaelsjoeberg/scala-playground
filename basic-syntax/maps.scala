@@ -13,6 +13,13 @@ map_mutable += ("Alpha" -> 1, "Beta" -> 2)          // Map(Beta -> 2, Alpha -> 1
 map_mutable -= "Beta"                               // Map(Alpha -> 1)
 map_mutable("Alpha") = 100                          // Map(Alpha -> 100)
 
+// iterating maps
+val map: Map[String, Int] = Map("Alpha" -> 1, "Beta" -> 2)
+
+for ((k, v) <- map) {
+    println(k, v)                                   // (Alpha,1) (Beta,2)
+}
+
 '''
 Michael Sjoeberg
 2018-11-05
